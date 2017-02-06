@@ -1,0 +1,54 @@
+.infoNotify_header{
+    width: 100%;
+    height: 56px;
+    position: relative;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.infoNotify_header >div:nth-of-type(1){
+    position: absolute;
+    top: 9px;
+    left: 0px;
+}
+
+.infoNotify_header >div:nth-of-type(2){
+    position: absolute;
+    left: 39%;
+    font-size: 16px;
+    top: 37%;
+    font-weight: bolder;
+}
+
+.readedINfo{
+    width: 100%;
+    height: 70px;
+    position: relative;
+    /* top: 20px; */
+    border-bottom: 1px solid #e6e6e6;
+}
+.readINfoLogo{
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+.readedInfoTitle{
+    position: absolute;
+    top: 14px;
+    left: 65px;
+    font-size: 15px;
+    font-family: '微软雅黑';
+}
+
+.readedInfoContent{
+    position: absolute;
+    top: 37px;
+    left: 65px;
+}
+.readedInfoDate{
+    position: absolute;
+    right: 11px;
+    top: 14px;
+}
+.tabs_main >div:nth-of-type(1){
+    background:#e6e6e6 !important;
+}

@@ -1,0 +1,1960 @@
+
+:global {
+	html, body, #root {
+		height: 100%;
+	}
+
+  html {
+	font-family: 'Roboto', sans-serif;
+
+  }
+
+  body {
+	/*max-width:600px;*/
+	font-size: 13px;
+	line-height: 20px;
+  }
+
+  #root{
+	overflow-x: hidden;
+	overflow-y: hidden;
+  }
+
+  .avartt{
+		height: 60px !important;
+		width: 60px !important;
+		display: block !important;
+		position: absolute !important;
+		top: -27px !important;
+		margin: 12px !important;
+		right: 18px !important;
+		border: 1px solid #e6e6e6;
+		border-radius: 50%;
+	}
+
+	.avartt >div:nth-of-type(1){
+		position:absolute;
+		left: 0px;
+
+	}
+
+  .ShopCart_move{
+	position: fixed;
+	width: 46px;
+	height: 47px;
+	background: black;
+	bottom: 52px;
+	right: 0px;
+	border-radius: 50%;
+  }
+
+
+
+	.avartt >div:nth-of-type(2){
+		position: absolute;
+		left: 61px;
+		top: 16px;
+	}
+	.Arrow_right_set{
+		margin-right:0px !important;
+		fill:gray !important;
+		color:gray !important;
+
+	}
+
+	.list_own{
+		width: 100%;
+		height: 50px;
+		line-height: 50px;
+		border-bottom: 1px solid #e6e6e6;
+	}
+
+	.list_own >div:nth-of-type(1){
+		float: left;
+		height: 100%;
+		font-size: 16px;
+		padding-left: 12px;
+		font-family: '微软雅黑';
+	}
+	.list_own >div:nth-of-type(2){
+		float:right;
+		padding-right: 8px;
+		height: 100%;
+	}
+
+	.list_own >div:nth-of-type(2) button{
+		height: 100%;
+	}
+
+
+
+	.AddNewSite_medium_content{
+		width:e("calc(100% - 15px)");
+		margin-left: 15px;
+		height: e("calc(100% - 100px)");
+	}
+	.DiscussFormTopic{
+		width:100%;
+		height:100px;
+		line-height:100px;
+		text-align: center;
+		font-size:22px;
+	}
+	.DiscussFormContent{
+		height:e("calc(100% - 241px)");
+		font-size:20px;
+		overflow-y: auto;
+	}
+
+	.DiscussForm_ItemOne{
+		width:100%;
+		margin-top:10px;
+		height:100%;
+		overflow-y: auto;
+		overflow-x: hidden;
+
+	}
+
+	.DiscussForm_ItemOne ul{
+		list-style-type: none;
+	}
+
+	.DiscussForm_ItemOne ul li{
+		margin-bottom:10px;
+	}
+
+	.DiscussForm_Detail_AllInfo{
+		height:100%;
+		width:100%;
+	}
+
+	.DiscussForm_Detail_AllInfo div:nth-of-type(1){
+		float:left;
+		width:45%;
+		height:100%;
+	}
+
+	.DiscussForm_Detail_AllInfo div:nth-of-type(1) img{
+		height:100%;
+		width:100%;
+	}
+
+	.DiscussForm_Detail_AllInfo div:nth-of-type(2){
+		position:relative;
+		margin: 10px 20px;
+		width: e("calc(55% - 40px)");
+		float: left;
+		height: e("calc(100% - 20px)");
+	}
+	.DiscussForm_Detail_AllInfo div:nth-of-type(2) p{
+		width:100%;
+		overflow:hidden;
+		text-overflow: ellipsis;
+		white-space:nowrap;
+		font-size: 14px;
+		margin:15px 0px;
+		font-weight: bolder;
+
+	}
+
+	.DiscussForm_Detail_AllInfo div:nth-of-type(2) span:nth-of-type(2){
+		display:block;
+		color:gray;
+		position:absolute;
+		bottom:0px;
+		right:0px;
+	}
+
+	.Discu_Content_INfo{
+		height:e("calc(100% - 307px)");
+	}
+
+	.Discu_Content_INfo >div,.Discu_Content_INfo >div >div:nth-of-type(3),.Discu_Content_INfo >div >div:nth-of-type(3) >div{
+		height:100% ;
+	}
+	.FootInfo{
+		position:relative;
+	}
+
+	.Discu_Content_INfo >div >div:nth-of-type(1){
+		width: 100%;
+		white-space: nowrap;
+		background-color:white !important;
+		border-top: 1px solid #e6e6e6;
+		border-bottom: 2px solid #e6e6e6;
+	}
+
+	.DiscussShopNum{
+		position: absolute;
+		top: 10px;
+		left: 63%;
+		width: 13px;
+		height: 13px;
+		border-radius: 50%;
+		background-color: red;
+		font-size: 1px;
+		text-align: center;
+		line-height: 15px;
+		color: white;
+		font-weight: 400;
+	}
+
+
+	*{
+		margin: 0px;
+		padding:0px;
+	}
+
+	.mainDiv{
+		width: 100%;
+		height: 42px;
+		background: gray;
+		margin: 0px;
+		padding: 0px;
+		line-height: 42px;
+		text-align: center;
+	}
+
+	.ulstyle{
+		list-style-type: none;
+		width: 80%;
+		height: 36px;
+		clear: both;
+		margin: 0px auto;
+	}
+
+	.ButGroup{
+		position: absolute;
+		bottom: 10px;
+		right: 5px
+	}
+
+	.ButGroup  span{
+		position: relative;
+		top: -7px;
+		padding: 4px;
+		display: inline-block;
+	}
+
+
+
+
+
+	.listyle{
+		width: 21%;
+		padding-right: 10px;
+		padding-left: 14px;
+		float: left;
+		color:white;
+	}
+
+	.infoStyle{
+		text-align: center;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		height: 26px;
+		font-size: 13px;
+		font-weight: bolder;
+		border-bottom: 1px solid gray;
+		color:white;
+		background:gray;
+	}
+
+
+	.BodyStyle{
+		width:100%;
+		width: 100%;
+		height: e("calc(100% - 142px)");
+
+	}
+
+
+	.leftBodyStyle{
+		width: 25%;
+		border-right: 1px solid gray;
+		height: 100%;
+		overflow:scroll;
+		float:left;
+	}
+
+	.rightBodyStyle{
+		width:74.7%;
+		height: 100%;
+		float:left;
+		overflow: scroll;
+	}
+
+	.AvatUlStyle{
+		list-style-type:none;
+		height:100%;
+		width:100px;
+		text-align:center;
+	}
+
+	.AvatUlStyle li{
+		width:100%;
+		height:18%;
+		margin-top:10px;
+	}
+
+	.AvatUlStyle li div{
+		margin: 0 auto;
+		width: 0px;
+		height: 22px;
+		border: 1px solid gray;
+	}
+
+	.showContent{
+		width:100%;
+		position:relative;
+		border-bottom:1px solid gray;
+	}
+
+	.rightBodyStyle ul{
+		width:100%;
+		height:100%;
+
+	}
+
+	.rightBodyStyle ul li{
+		width:100%;
+		height:18%;
+		list-style-type:none;
+	}
+
+	.showContent{
+		width:100%;
+		height:100%;
+		position:relative;
+		border-bottom:1px solid gray;
+	}
+
+	.showImage{
+		margin: 15px;
+		width: 26%;
+		height: 73px;
+	}
+
+	.detailInfo{
+		position: absolute;
+		top: 0px;
+		left: 103px;
+	}
+
+	.detailInfo ul li:nth-of-type(1){
+		margin-bottom:8px;
+	}
+	.detailInfo ul li:nth-of-type(2){
+		margin-bottom:5px;
+	}
+
+	.footBodyStyle{
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+		width: 100%;
+	}
+
+	.shopStyle{
+		text-align: right;
+		float: left;
+		width: 20%;
+		height: 36px;
+		background-color: black;
+		border-radius:0;
+	}
+
+
+	.DetailInfo{
+
+		height: e("calc(100% - 235px)");
+		overflow:auto;
+	}
+
+	.FoodSecDetailFir{
+		border-bottom: 1px solid #e6e6e6;
+		padding: 20px 0 0 0;
+
+	}
+
+	.FoodSecDetailFir >div:nth-of-type(1){
+		font-size:16px;
+		margin-bottom:8px;
+		padding: 0 10px;
+	}
+
+	.FoodSecDetailFir >div:nth-of-type(2){
+		color:red;
+		padding: 0 10px;
+		border-bottom:1px solid #e6e6e6;
+	}
+
+	.FoodSecDetailFir >div:nth-of-type(3){
+		padding-top: 7px;
+		height:45px;
+		border-bottom:1px solid #e6e6e6;
+	}
+
+	.FoodSecDetailFir >div:nth-of-type(3) >div:nth-of-type(1){
+		font-size:19px;
+		margin-top: 8px;
+		padding-left: 14px;
+		float:left;
+		color:red;
+	}
+
+	.FoodSecDetailFir >div:nth-of-type(3) >div:nth-of-type(2){
+		float:right;
+		color: red;
+		padding-right: 18px;
+	}
+
+
+	.FoodSecDetailFir div:nth-of-type(4) {
+		color:red;
+		padding: 0 10px;
+		font-size:16px;
+		height: 40px;
+		line-height: 40px;
+		border-bottom:1px solid #e6e6e6;
+	}
+
+	.FoodSecDetailFir div:nth-of-type(4) >div:nth-of-type(1){
+		float:left;
+		padding-left: 5px;
+	}
+
+
+	.FoodSecDetailFir div:nth-of-type(4) >div:nth-of-type(2){
+		float:right;
+		padding-right: 9px;
+	}
+
+	.FoodSecDetailFir div:nth-of-type(5){
+		height:50px;
+		line-height:50px;
+		border-bottom:1px solid #e6e6e6;
+
+	}
+
+	.FoodSecDetailFir div:nth-of-type(5) >div:nth-of-type(1){
+		float:left;
+		margin:5px 0 5px 12px;
+	}
+
+	.include_avar img{
+		margin-right: 5px;
+	}
+
+	.FoodSecDetailFir div:nth-of-type(5) >div:nth-of-type(2){
+		float:right;
+		font-size:16px;
+		color:gray;
+	}
+
+	.FoodSecDetailFir div:nth-of-type(6){
+		height:50px;
+		position:relative;
+	}
+
+	.FoodSecDetailFir div:nth-of-type(6) >div:nth-of-type(1){
+		position:absolute;
+		top:10px;
+		left: 11px;
+	}
+
+	.FoodSecDetailFir div:nth-of-type(6) >div:nth-of-type(2){
+		position: absolute;
+		top: 14px;
+		left: 36px;
+		color:#227700;
+	}
+
+	.FoodSecDetailFir div:nth-of-type(6) >div:nth-of-type(3){
+		position: absolute;
+		right: 0px;
+		top: 8px;
+
+	}
+
+	.FoodSecDetailFir div:nth-of-type(6) >div:nth-of-type(2) span{
+		padding-right:5px;
+	}
+
+	.FoodSecondMenu_SHow{
+		position: absolute;
+		bottom: 19px;
+		right: 10px;
+		width: 50px;
+		height: 50px;
+		background: black;
+		border-radius: 50%;
+	}
+
+	.food_num{
+		position: absolute;
+		bottom: 30px;
+		right: 7px;
+		width: 18px;
+		height: 18px;
+		line-height: 19px;
+		text-align: center;
+		border-radius: 50%;
+		font-size: 14px;
+		color: white;
+		background-color: red;
+	}
+
+
+	.FoodSecondMenuFloat button {
+		width:33px;
+		height:33px;
+	}
+
+	.FoodSecondMenuIcon{
+		height: 34px;
+	}
+
+
+
+	.Favorite_num ul{
+		list-style-type: none;
+	}
+
+	.Favorite_num ul li{
+		float:left;
+	}
+
+
+
+	.FoodSecDetailSec{
+		border-bottom: 1px solid #e6e6e6;
+		padding:10px 20px;
+		position:relative;
+	}
+
+	.Drawer_container{
+		width:100%;
+		height: e("calc(100% - 50px)");
+		overflow-y: auto;
+		overflow-x: hidden;
+	}
+
+	.Drawer_container ul{
+		list-style-type: none;
+	}
+
+	.Drawer_title{
+		height:50px;
+		line-height:50px;
+		border-bottom:1px solid #e6e6e6;
+	}
+
+	.Drawer_title >div:nth-of-type(1){
+		float:left;
+	}
+
+	.Drawer_title >div:nth-of-type(2){
+		float:right;
+	}
+
+	.Drawer_food_detail{
+		height:37px;
+		padding-top: 14px;
+		width:100%;
+		border-bottom:1px solid #e6e6e6;
+	}
+
+	.Drawer_food_detail >div:nth-of-type(1) {
+		font-size: 18px;
+		float: left;
+		padding-left: 10px;
+		font-family: '微软雅黑';
+	}
+	.Drawer_food_detail >div:nth-of-type(2) {
+		float: right;
+		padding-right:10px;
+	}
+
+.fendai{
+  float:right;
+}
+
+
+	.FoodSecDetailThir{
+
+	}
+
+
+	.FoodSecondMenu_footSel{
+		position: relative;
+	}
+
+	.ShopNum{
+		position: absolute;
+		top: 10px;
+		left: 51%;
+		width: 13px;
+		height: 13px;
+		border-radius: 50%;
+		background-color: red;
+		font-size: 1px;
+		text-align: center;
+		line-height: 17px;
+		color: white;
+		font-weight: 400;
+	}
+
+	.Drawer_foot_content{
+		width:100%;
+		height:50px;
+	}
+
+	.Drawer_foot_content >div:nth-of-type(1){
+		float: left;
+		background: black;
+		color: white;
+		width: e("calc(60% - 20px)");
+		height: 50px;
+		line-height: 50px;
+		font-size: 16px;
+		padding-left: 20px;
+		font-family: '微软雅黑';
+	}
+
+	.Drawer_foot_content >div:nth-of-type(2){
+		background-color: red;
+		float: left;
+		width: 40%;
+		height: 100%;
+	}
+
+	.Drawer_foot_content >div:nth-of-type(2) >button{
+		height: 50px !important;
+		line-height: 50px !important;
+		/* min-width: 88px; */
+		width: 100% !important;
+	}
+
+	.FoodSecondMenuNUM{
+		width:33px;
+		height:33px;
+	}
+
+	.FoodSecondMenuNUM button{
+		vertical-align: baseline !important;
+		width:33px !important;
+		height:33px  !important;
+	}
+
+	.FoodSecondMenu_DA{
+		height:36px !important;
+	}
+
+
+	.OrderForm_ShopCart{
+		position: absolute;
+		top: 6px;
+		right: 15px;
+		fill:white !important;
+	}
+
+
+
+	.Login_Info_content{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.Login_btnGroup{
+		margin-top: 30px;
+	}
+	.Login_btnGroup >button:nth-of-type(1){
+		float:left;
+	}
+
+	.Login_btnGroup >button:nth-of-type(2){
+		float:right;
+	}
+
+
+
+	.MyCoupon_Content_INfo{
+		height:e("calc(100% - 64px)");
+		position:relative;
+	}
+
+
+	.MyOrder_top{
+		width:100%;
+		height:56px;
+		position:relative;
+	}
+
+	.MyOrder_top >div:nth-of-type(1){
+		position: absolute;
+		top: 9px;
+		left: 0px;
+	}
+
+	.MyOrder_top >div:nth-of-type(2){
+		position:absolute;
+		left:30%
+	}
+
+	.MyOrder_all_info{
+		width:100%;
+		height:e("calc(100% - 56px)");
+		padding-top: 13px;
+		background-color:#f5f5f5;
+		overflow-y: auto;
+		overflow-x: hidden;
+	}
+
+	.MyOrder_all_info ul{
+		list-style-type: none;
+		width: 100%;
+	}
+
+	.MyOrder_all_info ul li{
+		width:100%;
+		margin-bottom: 13px;
+	}
+
+	.MyOrder_detail_info{
+		height: 100%;
+
+	}
+
+	.MyOrder_detail_info >div:nth-of-type(1){
+		height: 50px;
+		line-height: 50px;
+		text-align: right;
+		padding-right: 20px;
+		font-family: '微软雅黑';
+		color: red;
+		font-size: 14px;
+	}
+
+	.MyOrder_detail_info >div:nth-of-type(2){
+		height: 90px;
+		background: #f5f5f5;
+		position: relative;
+	}
+
+	.MyOrder_detail_info >div:nth-of-type(2) img{
+		height: e("calc(100% - 20px)");
+		margin: 10px;
+		width: 70px;
+	}
+
+	.MyOrder_detail_info >div:nth-of-type(2) span{
+		display: block;
+		position: absolute;
+		top: 19px;
+		left: 95px;
+		width: 60%;
+	}
+
+
+	.MyOrder_shop_price{
+		height: 50px;
+		line-height: 50px;
+		text-align: right;
+		padding-right: 20px;
+		border-bottom: 1px solid #f5f5f5;
+		font-family: '微软雅黑';
+	}
+
+
+	.MyOrder_shop_price >span:nth-of-type(3){
+		padding-right:10px;
+	}
+
+	.MyOrder_shop_price >span:nth-of-type(4){
+		padding-right:5px ;
+	}
+
+	.MyOrder_shop_price >span:nth-of-type(5){
+		font-size:16px;
+	}
+
+	.MyOrder_detail_info >div:nth-of-type(4){
+		height: 50px;
+		padding-top: 6px;
+		text-align: right;
+		padding-right: 20px;
+	}
+
+
+
+	.Mysite_content{
+		padding:20px;
+		width:e("calc(100% - 20px)");
+	}
+
+	.Mysite_content >div{
+		font-size: 13px;
+		font-family: '微软雅黑';
+		padding-bottom: 5px;
+	}
+
+	.Mysite_content >div:nth-of-type(1) >span:nth-of-type(1){
+		padding-right:5px;
+	}
+
+	.Mysite_content >div:nth-of-type(2){
+		border-bottom:1px solid #e6e6e6;
+	}
+
+
+	.MySite_foot_addSite{
+		background-color: red;
+	}
+
+	.MySite_medium_content{
+		height:e("calc(100% - 100px)");
+		overflow-x: hidden;
+		overflow-y: auto;
+	}
+
+
+
+
+
+	.foodInfo{
+		height: 100%;
+		overflow-y: auto;
+
+	}
+
+	.OrderFoodList{
+		list-style-type: none;
+
+	}
+
+	.Order_num_price{
+		position: relative;
+		top: 6px;
+	}
+
+	.OrderForm_Food_all_info{
+		height: e("calc(100% - 307px)");
+	}
+
+	.OrderForm_Food_all_info >div{
+		height:100%;
+	}
+
+	.OrderForm_Food_all_info >div >div:nth-of-type(3){
+		height:e("calc(100% - 48px)") !important;
+	}
+
+	.OrderForm_Food_all_info >div >div:nth-of-type(3)>div{
+		height:100%;
+	}
+	.Order_num_price >span{
+		position: absolute;
+		top: 11px;
+		left: 0px;
+		color: red;
+		font-size: 18px;
+	}
+
+	.Order_num_price >div{
+		text-align: right;
+		padding-right: 10px;
+
+	}
+	.Order_num_price >div >span{
+		position: relative;
+		top: -3px;
+		margin: 0 8px;
+		font-size: 18px;
+
+	}
+	.contentDel{
+		fill:red !important;
+	}
+
+
+	.OrderFoodList li{
+		width:e("calc(100% - 21px)");
+		float:left;
+		padding: 10px;
+		border-bottom:1px solid #e6e6e6;
+		border-right:1px solid #e6e6e6
+	}
+
+	.OrderFoodList li:nth-child(2n){
+		border-right:0;
+	}
+
+	.OrderFoodInfoIntro{
+		float: left;
+		width:e("calc(100% - 130px)");
+		height:100%;
+		text-align: center;
+
+	}
+
+	.OrderFoodInfoIntro p{
+		text-align: left;
+		font-size: 16px;
+		font-weight: bolder;
+		margin-bottom: 10px;
+	}
+
+	.OrderFoodInfoIntro >span{
+		color:gray;
+	}
+
+	.Order_Store{
+	}
+
+	.OrderFoodImg{
+		width:120px;
+		height:100px;
+		float:left;
+		margin-right: 10px;
+	}
+
+	.OrderFoodImg img{
+		width:100%;
+		height:100%;
+	}
+
+	.OrderFootSel{
+		position:relative;
+	}
+
+	.OrderForm_ShopCart{
+		position: absolute;
+		top: 6px;
+		right: 15px;
+		fill:white !important;
+	}
+
+	.OrderShopNum{
+	  position: absolute;
+	  bottom: 30px;
+	  right: 2px;
+	  width: 16px;
+	  height: 16px;
+	  border-radius: 50%;
+	  background-color: red;
+	  font-size: 1px;
+	  text-align: center;
+	  line-height: 17px;
+	  color: white;
+	  font-weight: 400;
+	}
+
+	*{
+		margin:0px;
+		padding:0px;
+	}
+
+	.OrderIntroPage_detailInfo{
+		list-style: none;
+	}
+
+
+	.OrderIntroPage_detailInfo  li{
+		margin-bottom:10px;
+	}
+
+
+
+	.OrderIntroPage_Count{
+		font-size: 16px;
+		font-family: "微软雅黑";
+		float: right;
+		padding: 15px 30px;
+	}
+
+
+	.OrderInfo_List_info{
+		position:relative;
+		width:100%;
+		height:100%;
+	}
+
+
+	.OrderInfo_List_Intro{
+		position:relative;
+		width: 100%;
+		height:100%;
+
+	}
+
+
+	.OrderInfo_List_img{
+		border-radius: 2%;
+		position: absolute;
+		left: 40px;
+		top: 7px;
+		width: 120px;
+		height: 120px;
+		border: 1px solid #e6e6e6;
+	}
+	.OrderInfo_List_img img{
+		width:e("calc(100% - 20px)");
+		height:e("calc(100% - 20px)");
+		margin-top: 10px;
+		margin-left:10px;
+	}
+
+
+	.OrderInfo_sec_info{
+		position: relative;
+		top: 10px;
+		left: e("calc(10% + 130px)");
+		width: e("calc(90% - 130px)");
+		font-size: 12px;
+		font-family: '微软雅黑';
+		font-weight: bold;
+		height: e("calc(100% - 10px)");
+	}
+
+	.OrderInfo_price{
+		position: absolute;
+		bottom: 18px;
+		font-size: 14px;
+		color: red;
+	}
+
+	.OrderDelOrAdd{
+		position: relative;
+		top: 42px;
+		right: 10px;
+		text-align: right;
+	}
+
+	.OrderDelOrAdd div:first-child{
+		width:30px;
+		height:30px;
+		margin-right: 10px;
+	}
+
+	.OrderDelOrAdd div:first-child button{
+		width:30px !important;
+		height:30px !important;
+	}
+
+	.OrderDelOrAdd div:nth-of-type(2){
+		width:30px;
+		height:30px;
+		margin-left: 10px;
+	}
+
+	.OrderDelOrAdd div:nth-of-type(2) button{
+		width:30px !important;
+		height:30px !important;
+	}
+
+	.addOrDel{
+		height:31px !important
+	}
+
+	.foodNum{
+		display: block;
+		position: absolute;
+		width: 10px;
+		height: 10px;
+		/* left: 35px; */
+		right: 35px;
+		top: 5px;
+		font-family: '微软雅黑';
+		font-size: 18px;
+	}
+
+	.OrderIntroPage_account{
+		border-top:1px solid #e6e6e6;
+		width:100%;
+		height:100px;
+		position: relative;
+	}
+
+	.AllMoney{
+		position: absolute;
+		left: 30%;
+		top: 4%;
+	}
+
+	.AllMoney p:nth-of-type(1) {
+		font-size: 16px;
+		font-weight: bold;
+	}
+
+	.AllMoney p:nth-of-type(2){
+		font-size:12px;
+		color:gray;
+	}
+
+	.Btn_Account{
+		position: absolute;
+		right: 6px;
+		top: 6px;
+
+	}
+
+
+
+
+	.OwnInfoFormFoot{
+		width: 100%;
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+
+	}
+
+	.OwnInfo_avar{
+		width:100%;
+		height:100px;
+		position:relative;
+		border-bottom: 1px solid #e6e6e6;
+	}
+
+	.OwnInfo_avar >div:nth-of-type(1){
+		position: absolute;
+		top: 15px;
+		left: 23px;
+		width: 70px;
+		height: 70px;
+
+	}
+
+	.OwnInfo_avar >div:nth-of-type(1) img{
+		width:100%;
+		height:100%;
+		border-radius:50%;
+		border:1px solid gray;
+	}
+
+	.OwnInfo_avar >div:nth-of-type(2){
+		position: absolute;
+		top: 44%;
+		left: 29%;
+		font-size: 16px;
+		font-family: '微软雅黑';
+		display:none;
+	}
+
+	.OwnInfo_avar >div:nth-of-type(3){
+		position: absolute;
+		top: 44%;
+		left: 29%;
+		font-size: 14px;
+		font-family: '微软雅黑';
+	}
+
+
+	.OwnInfo_avar >div:nth-of-type(3) span{
+		display: inline-block;
+		position: relative;
+		left: -5px;
+		top: 0px;
+		width: 67%;
+
+	}
+
+	.OwnInfo_avar >div:nth-of-type(3) svg{
+		position: absolute;
+		right: -6px;
+		top: -2px;
+		display:block !important;
+	}
+
+	.OwnInfoShopNum{
+		position: absolute;
+		top: 10px;
+		left: 63%;
+		width: 13px;
+		height: 13px;
+		border-radius: 50%;
+		background-color: red;
+		font-size: 1px;
+		text-align: center;
+		line-height: 15px;
+		color: white;
+		font-weight: 400;
+	}
+	.Remark_edit_content{
+		padding-left: 10px;
+		padding-right:10px;
+		padding-top: 10px;
+		height: 100%;
+		background-color: #f9f9f9;
+	}
+
+
+
+	.Papaer_ReMark_content{
+		height:151px;
+		color:gray;
+		padding-top: 10px;
+		padding-left: 10px;
+		font-size: 15px;
+		font-family: '微软雅黑';
+	}
+
+	.SelSitePage_content{
+		padding:20px;
+		width:e("calc(100% - 20px)");
+		position: relative;
+	}
+
+	.SelSitePage_medium_content ul li{
+		height: 72px;
+	}
+
+
+
+	.SelSitePage_content >div:nth-of-type(1){
+		float: left;
+		height: 40px;
+		line-height: 56px;
+		padding-right: 10px;
+
+	}
+
+	.SelSitePage_content >div:nth-of-type(2){
+		float:left;
+	}
+
+	.SelSitePage_content >div:nth-of-type(3){
+		float: right;
+		padding-right: 19px;
+		border-left: 1px solid gray;
+		width: 33px;
+		padding-left: 10px;
+	}
+
+
+	.MySite_foot_addSite{
+		background-color: red;
+	}
+
+	.SelSitePage_medium_content{
+		height:e("calc(100% - 100px)");
+		overflow-x: hidden;
+		overflow-y: auto;
+	}
+
+
+@charset "UTF-8";
+	/* Slider */
+	.slick-slider {
+		position: relative;
+		display: block;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		-ms-touch-action: pan-y;
+		touch-action: pan-y;
+		-webkit-tap-highlight-color: transparent;
+	}
+
+	.slick-list {
+		position: relative;
+		overflow: hidden;
+		display: block;
+		margin: 0;
+		padding: 0;
+	}
+
+	.slick-list:focus {
+		outline: none;
+	}
+
+	.slick-loading .slick-list {
+		background: #fff url("http://o8ea97cbs.bkt.clouddn.com/chicken.jpg") center center no-repeat;
+	}
+
+	.slick-list.dragging {
+		cursor: pointer;
+		cursor: hand;
+	}
+
+	.slick-slider .slick-track {
+		-webkit-transform: translate3d(0, 0, 0);
+		-moz-transform: translate3d(0, 0, 0);
+		-ms-transform: translate3d(0, 0, 0);
+		-o-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+
+	.slick-track {
+		position: relative;
+		left: 0;
+		top: 0;
+		display: block;
+	}
+
+	.slick-track:before, .slick-track:after {
+		content: "";
+		display: table;
+	}
+
+	.slick-track:after {
+		clear: both;
+	}
+
+	.slick-loading .slick-track {
+		visibility: hidden;
+	}
+
+	.slick-slide {
+		float: left;
+		height: 100%;
+		min-height: 1px;
+		display: none;
+	}
+
+	[dir="rtl"] .slick-slide {
+		float: right;
+	}
+
+	.slick-slide img {
+		display: block;
+	}
+
+	.slick-slide.slick-loading img {
+		display: none;
+	}
+
+	.slick-slide.dragging img {
+		pointer-events: none;
+	}
+
+	.slick-initialized .slick-slide {
+		display: block;
+	}
+
+	.slick-loading .slick-slide {
+		visibility: hidden;
+	}
+
+	.slick-vertical .slick-slide {
+		display: block;
+		height: auto;
+		border: 1px solid transparent;
+	}
+
+	/* Icons */
+	/*@font-face {*/
+	/*font-family: "slick";*/
+	/*src: url("./fonts/slick.eot");*/
+	/*src: url("./fonts/slick.eot?#iefix") format("embedded-opentype"), url("./fonts/slick.woff") format("woff"), url("./fonts/slick.ttf") format("truetype"), url("./fonts/slick.svg#slick") format("svg");*/
+	/*font-weight: normal;*/
+	/*font-style: normal;*/
+	/*}*/
+
+	/* Arrows */
+	.slick-prev, .slick-next {
+		position: absolute;
+		display: block;
+		height: 20px;
+		width: 20px;
+		line-height: 0;
+		font-size: 0;
+		cursor: pointer;
+		background: transparent;
+		color: transparent;
+		top: 50%;
+		margin-top: -10px;
+		padding: 0;
+		border: none;
+		outline: none;
+	}
+
+	.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+		outline: none;
+		background: transparent;
+		color: transparent;
+	}
+
+	.slick-prev:hover:before, .slick-prev:focus:before, .slick-next:hover:before, .slick-next:focus:before {
+		opacity: 1;
+	}
+
+	.slick-prev.slick-disabled:before, .slick-next.slick-disabled:before {
+		opacity: 0.25;
+	}
+
+	.slick-prev:before, .slick-next:before {
+		font-family: "slick";
+		font-size: 20px;
+		line-height: 1;
+		color: white;
+		opacity: 0.75;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+
+	.slick-prev {
+		left: -25px;
+	}
+
+	[dir="rtl"] .slick-prev {
+		left: auto;
+		right: -25px;
+	}
+
+	.slick-prev:before {
+		content: "←";
+	}
+
+	[dir="rtl"] .slick-prev:before {
+		content: "→";
+	}
+
+	.slick-next {
+		right: -25px;
+	}
+
+	[dir="rtl"] .slick-next {
+		left: -25px;
+		right: auto;
+	}
+
+	.slick-next:before {
+		content: "→";
+	}
+
+	[dir="rtl"] .slick-next:before {
+		content: "←";
+	}
+
+	/* Dots */
+	.slick-slider {
+		/*margin-bottom: 30px;*/
+	}
+
+	.slick-dots {
+		position: absolute;
+		bottom: 1px;
+		list-style: none;
+		display: block;
+		text-align: center;
+		padding: 0;
+		width: e("calc(100% - 2px)");
+	}
+
+	.slick-dots li {
+		position: relative;
+		display: inline-block;
+		height: 20px;
+		width: 20px;
+		margin: 0 5px;
+		padding: 0;
+		cursor: pointer;
+		/*border:1px solid gray*/
+	}
+
+	.slick-dots li button {
+		border: 0;
+		background: transparent;
+		display: block;
+		height: 20px;
+		width: 20px;
+		outline: none;
+		line-height: 0;
+		font-size: 0;
+		color: transparent;
+		padding: 5px;
+		cursor: pointer;
+	}
+
+	.slick-dots li button:hover, .slick-dots li button:focus {
+		outline: none;
+	}
+
+	.slick-dots li button:hover:before, .slick-dots li button:focus:before {
+		opacity: 1;
+	}
+
+	.slick-dots li button:before {
+		position: absolute;
+		top: 0;
+		left: 0;
+		content: "•";
+		width: 20px;
+		height: 20px;
+		font-family: "slick";
+		font-size: 6px;
+		line-height: 20px;
+		text-align: center;
+		color: black;
+		opacity: 0.25;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+
+	.slick-dots li.slick-active button:before {
+		color: black;
+		opacity: 0.75;
+	}
+
+	*{
+		margin:0px;
+		padding:0px;
+	}
+	li{
+		margin:0;
+		padding:0;
+	}
+
+
+	.TheSettleBuyerSiteInfo{
+		border-bottom:1px solid #e6e6e6;
+		width:100%;
+		padding:10px;
+		height:75px;
+		position:relative;
+
+	}
+
+	.OwnInfo{
+		position:relative;
+		height:40px;
+	}
+
+	.OwnName{
+		position: absolute;
+		left: 38px;
+		top: 10px;
+		font-size: 16px;
+		font-weight: bold;
+		font-family: '微软雅黑';
+	}
+
+	.OwnPhoneNum{
+		position: absolute;
+		left: 105px;
+		top: 10px;
+		font-size: 16px;
+		font-weight: bold;
+		font-family: '微软雅黑';
+	}
+
+	.theSettleDetailInfo{
+		position:relative;
+
+	}
+
+	.theSettleDetailInfo div:nth-of-type(1){
+		position:absolute;
+		left:0px;
+	}
+
+	.Own_Detail_info{
+		position:absolute;
+		left:30px;
+		top: 2px;
+	}
+
+	.Arrow_Left{
+		position: absolute;
+		right: 35px;
+		top: 0px;
+		width: 30px;
+		height: 100%;
+	}
+
+
+	.TheSettle_List li{
+		height:100%;
+	}
+
+
+	.TheSettleFood_imgInfo{
+		height:e("calc(100% - 40px)");
+		padding:20px;
+		float:left;
+	}
+
+	.TheSet_Drawer_title{
+		height: 50px;
+		line-height: 50px;
+	}
+
+
+	.TheSet_Drawer_title >div:nth-of-type(1){
+		float:left;
+	}
+
+	.TheSet_Drawer_title >div:nth-of-type(2){
+		float:right;
+	}
+
+	.TheSel_Drawer_food_detail{
+		height: 37px;
+		padding-top: 14px;
+		width: 100%;
+	}
+
+	.TheSel_Drawer_food_detail >div:nth-of-type(2) >span:nth-of-type(1){
+		font-size: 11px;
+		font-family: '微软雅黑';
+		color: gray;
+	}
+
+	.TheSel_Drawer_food_detail >div:nth-of-type(1) {
+		font-size: 18px;
+		float: left;
+		padding-left: 10px;
+		font-family: '微软雅黑';
+	}
+	.TheSel_Drawer_food_detail >div:nth-of-type(2) {
+		float: right;
+		padding-right:10px;
+	}
+
+
+
+	.TheSel_Drawer_food_detail >div:nth-of-type(2) >span:nth-of-type(2){
+		font-size: 15px;
+		font-family: '微软雅黑';
+		padding-right: 20px;
+		color: gray;
+	}
+
+  .TheSel_Drawer_food_detail >div:nth-of-type(2)  >span:nth-of-type(3){
+	font-size: 14px;
+	font-family: '微软雅黑';
+
+  }
+
+  .TheSel_Drawer_food_detail >div:nth-of-type(2)  >span:nth-of-type(4){
+		font-size: 14px;
+		font-family: '微软雅黑';
+	    padding-right: 10px;
+	}
+
+
+
+	.TheSettleFood_IntroDetailInfo p{
+		width:100%;
+		overflow:hidden;
+		text-overflow: ellipsis;
+		white-space:nowrap;
+		font-size: 14px;
+		font-weight: bolder;
+	}
+
+	.TheSettleFoot_Combin_Info{
+		width:100%;
+		height:100px;
+		padding: 10px;
+	}
+
+	.TheSettleFoot_Combin_Info ul{
+		height:100%;
+		width:100%;
+		list-style-type: none;
+
+	}
+
+	.TheSettleFoot_combin_list{
+		height:33%;
+		width:100%;
+		padding-right:10px;
+		font-size: 16px;
+		font-family: '微软雅黑';
+	}
+
+	.TheSettleFoot_combin_list div:nth-of-type(1){
+		float:left;
+	}
+
+	.TheSettleFoot_combin_list div:nth-of-type(2){
+		float:right;
+		color:red;
+		padding-right: 20px;
+	}
+
+	.TheSettlePage_account{
+		border-top: 1px solid #e6e6e6;
+		width: 100%;
+		height: 50px;
+		line-height: 50px;
+		bottom: 0px;
+		position: absolute;
+	}
+
+	.TheSettleAllMoney{
+		position: absolute;
+		left: 30%;
+		top: 4%;
+	}
+
+	.TheSettleAllMoney p{
+		color:red;
+		font-size: 16px;
+	}
+
+	.TheSettleBtn_Account{
+		position: absolute;
+		right: 0px;
+		top: 0px;
+		width: 40%;
+		border-left:1px solid #e6e6e6;
+		background-color:red !important;
+	}
+
+	.TheSettleBtn_Account button{
+		height:61px !important;
+		width:100%;
+
+	}
+
+
+	.theSet_discount_note{
+		position:absolute;
+		width:100%;
+		height:100%;
+		background-color:gray;
+		opacity:0.5;
+		z-index:888;
+		display: none;
+	}
+
+	.theSet_discount_note_content{
+		height: 50%;
+		width: 80%;
+		position: absolute;
+		top: 20%;
+		left: 10%;
+		z-index: 999;
+		background: white;
+		border: 1px solid gray;
+		display: none;
+
+	}
+
+	.theSet_discount_note_content_head{
+		background-color:#e6e6e6;
+		height: 40px;
+		line-height: 40px;
+		font-size: 16px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.theSet_discount_note_content_head_remove{
+		float: right;
+		padding-top: 6px
+	}
+
+	.theSet_discount_note_content_content{
+		padding-left: 15px;
+		padding-right: 15px;
+		height: e("calc(100% - 49px)");
+		overflow-y: auto;
+		width: 92%;
+	}
+
+	.theSet_discount_note_content_content ul{
+		list-style-type: none;
+	}
+
+	.theSet_discount_note_content_content ul li div{
+		font-size: 14px;
+		font-family: '微软雅黑';
+		font-weight: bolder;
+		margin: 15px 0px;
+	}
+
+	.theSet_discount_note_content_content ul li p{
+		font-size: 15px;
+		color: gray;
+	}
+
+
+	.TopicSecondForm_content{
+		width:100%;
+		height:e("calc(100% - 134px)");
+		overflow-y: auto;
+		overflow-x: hidden;
+	}
+
+	.TopicSecondForm_content ul{
+		list-style-type: none;
+		width:100%;
+	}
+
+	.TopicSec_OwnAvat{
+		width:100%;
+		position:relative;
+		height:50px;
+		padding:10px;
+	}
+
+	.TopicSec_OwnAvat img{
+		width:50px;
+		height:50px;
+		border-radius:50%;
+		border: 1px solid gray;
+	}
+
+	.TopicSec_OwnAvat >div{
+		position: absolute;
+		top: 39%;
+		left: 19%;
+		font-size: 16px;
+		font-weight: 500;
+		font-family: '微软雅黑';
+	}
+
+	.Sec_Detail_content{
+		width:100%;
+	}
+
+	.Sec_Detail_content img{
+		width:100%;
+	}
+
+	.Sec_Detail_content +p{
+		margin:20px 15px;
+		width:e("calc(100% - 40px)");
+		font-size: 14px;
+		font-family: '微软雅黑';
+	}
+
+
+	.TopicFoot{
+		border-top:1px solid #e6e6e6;
+		width:100%;
+		height:70px;
+		line-height: 82px;
+	}
+
+	.TopicFoot >div{
+		float:left;
+		width:33.3%;
+		text-align: center;
+	}
+
+	.aa{
+		background-color:#f1f1f1;
+	}
+
+	.PersonOfZan{
+		padding-top: 10px;
+		height: 40px;
+		padding-bottom: 10px;
+		border-bottom: 1px solid #e6e6e6;
+		border-top: 1px solid #e6e6e6;
+		padding-left: 10px;
+		padding-right: 10px;
+		position: relative;
+	}
+
+
+	.PersonOfZan img{
+		margin-right: 5px;
+	}
+
+	.personNum_topicSec{
+		position: absolute;
+		right: 0px;
+		top: 0px;
+	}
+  .AccountManage_SeconPage{
+	width:100%;
+	height:100%;
+	background-color:#f9f9f9;
+	opacity: 0.5;
+	z-index: 888;
+	position: absolute;
+	display: none;
+
+  }
+
+  .AccountManage_Firs{
+	position: absolute;
+	width: 80%;
+	height: 153px;
+	left: 10%;
+	top: 27%;
+	z-index: 999;
+	background-color: white;
+	border:1px solid gray;
+	display: none;
+
+  }
+
+  .AccountManage_Firs >div{
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #e6e6e6;
+	color: white;
+	font-size: 16px;
+	font-family: '微软雅黑';
+  }
+
+  .AccountManage_Firs >div:nth-of-type(1){
+	background-color:black;
+	text-align: center;
+  }
+
+  .AccountManage_Firs >div:nth-of-type(2) button{
+	width:100%;
+	height:50px !important;
+	line-height:50px !important;
+	font-size: 16px;
+	font-family: '微软雅黑';
+  }
+
+  .AccountManage_Firs >div:nth-of-type(3) button{
+	width:100%;
+	height:50px !important;
+	line-height:50px !important;
+	font-size: 16px;
+	font-family: '微软雅黑';
+  }
+
+  .AccountManage_Firs >div:nth-of-type(3){
+	border-bottom: 0;
+  }
+
+  .ChangeText input{
+	padding-left: 10px !important;
+  }
+
+  .ChangeText{
+	height:56px !important;
+  }
+
+
+  .ChangeHigh{
+	position: absolute;
+	right: 8px;
+	top: 14px;
+  }
+
+  .Bir_timeSel >div >div:nth-of-type(1){
+	right: 20px;
+  }
+
+  .Bir_timeSel >div >input{
+	text-align: right;
+	right: 20px;
+
+  }
+
+  .Bir_timeSel >div >div:nth-of-type(2) hr{
+	display: none;
+  }
+
+}
+
+
+
